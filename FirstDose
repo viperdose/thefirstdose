@@ -1,0 +1,196 @@
+Last login: Wed Sep  8 07:32:14 on ttys000
+noverianzhafar@Noverians-MacBook-Air ~ % sudo -s
+Password:
+Sorry, try again.
+Password:
+franklampardSorry, try again.
+Password:
+root@Noverians-MacBook-Air ~ # node -v
+v14.17.6
+root@Noverians-MacBook-Air ~ # npm install -g create-react-native-app
+/usr/local/bin/create-react-native-app -> /usr/local/lib/node_modules/create-react-native-app/build/index.js
++ create-react-native-app@3.6.0
+updated 1 package in 6.992s
+root@Noverians-MacBook-Air ~ # create-react-native-app FirstDose   
+✔ How would you like to start › Default new app
+✔ Downloaded and extracted project files.
+
+Using npm to install packages.
+
+✔ Installed JavaScript dependencies.
+⚠️  Unable to install the CocoaPods CLI. Continuing with initializing the project, you can install CocoaPods afterwards.
+
+✅ Your project is ready!
+
+To run your project, navigate to the directory and run one of the following npm commands.
+
+- cd FirstDose
+- npm run android
+- npm run ios
+- npm run web
+
+⚠️  Before running your app on iOS, make sure you have CocoaPods installed and initialize the project:
+
+  cd FirstDose/ios
+  npx pod-install
+
+root@Noverians-MacBook-Air ~ # cd FirstDose/ios
+  npx pod-install
+npx: installed 1 in 18.033s
+Scanning for pods...
+› Attempting to install CocoaPods CLI with Gem
+Building native extensions. This could take a while...
+ERROR:  Error installing cocoapods:
+	ERROR: Failed to build gem native extension.
+
+    current directory: /Library/Ruby/Gems/2.6.0/gems/ffi-1.15.4/ext/ffi_c
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20210908-1145-13698jm.rb extconf.rb
+checking for ffi.h... *** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/$(RUBY_BASE_NAME)
+	--with-ffi_c-dir
+	--without-ffi_c-dir
+	--with-ffi_c-include
+	--without-ffi_c-include=${ffi_c-dir}/include
+	--with-ffi_c-lib
+	--without-ffi_c-lib=${ffi_c-dir}/lib
+	--enable-system-libffi
+	--disable-system-libffi
+	--with-libffi-config
+	--without-libffi-config
+	--with-pkg-config
+	--without-pkg-config
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:467:in `try_do': The compiler failed to generate an executable file. (RuntimeError)
+You have to install development tools first.
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:585:in `block in try_compile'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:534:in `with_werror'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:585:in `try_compile'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:1109:in `block in have_header'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:959:in `block in checking_for'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:361:in `block (2 levels) in postpone'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:331:in `open'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:361:in `block in postpone'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:331:in `open'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:357:in `postpone'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:958:in `checking_for'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:1108:in `have_header'
+	from extconf.rb:10:in `system_libffi_usable?'
+	from extconf.rb:42:in `<main>'
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Library/Ruby/Gems/2.6.0/extensions/universal-darwin-19/2.6.0/ffi-1.15.4/mkmf.log
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Library/Ruby/Gems/2.6.0/gems/ffi-1.15.4 for inspection.
+Results logged to /Library/Ruby/Gems/2.6.0/extensions/universal-darwin-19/2.6.0/ffi-1.15.4/gem_make.out
+Your password might be needed to install CocoaPods CLI: https://guides.cocoapods.org/using/getting-started.html#installation
+Building native extensions. This could take a while...
+ERROR:  Error installing cocoapods:
+	ERROR: Failed to build gem native extension.
+
+    current directory: /Library/Ruby/Gems/2.6.0/gems/ffi-1.15.4/ext/ffi_c
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20210908-1157-y3k3x1.rb extconf.rb
+checking for ffi.h... *** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/$(RUBY_BASE_NAME)
+	--with-ffi_c-dir
+	--without-ffi_c-dir
+	--with-ffi_c-include
+	--without-ffi_c-include=${ffi_c-dir}/include
+	--with-ffi_c-lib
+	--without-ffi_c-lib=${ffi_c-dir}/lib
+	--enable-system-libffi
+	--disable-system-libffi
+	--with-libffi-config
+	--without-libffi-config
+	--with-pkg-config
+	--without-pkg-config
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:467:in `try_do': The compiler failed to generate an executable file. (RuntimeError)
+You have to install development tools first.
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:585:in `block in try_compile'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:534:in `with_werror'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:585:in `try_compile'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:1109:in `block in have_header'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:959:in `block in checking_for'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:361:in `block (2 levels) in postpone'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:331:in `open'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:361:in `block in postpone'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:331:in `open'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:357:in `postpone'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:958:in `checking_for'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:1108:in `have_header'
+	from extconf.rb:10:in `system_libffi_usable?'
+	from extconf.rb:42:in `<main>'
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Library/Ruby/Gems/2.6.0/extensions/universal-darwin-19/2.6.0/ffi-1.15.4/mkmf.log
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Library/Ruby/Gems/2.6.0/gems/ffi-1.15.4 for inspection.
+Results logged to /Library/Ruby/Gems/2.6.0/extensions/universal-darwin-19/2.6.0/ffi-1.15.4/gem_make.out
+› Failed to install CocoaPods CLI with Gem
+
+› Attempting to install CocoaPods CLI with Homebrew
+› Failed to install CocoaPods with Homebrew. Please install CocoaPods CLI manually and try again.
+
+Aborting run
+An unexpected error was encountered. Please report it as a bug:
+CocoaPodsError: Failed to install CocoaPods with Homebrew. Please install CocoaPods CLI manually and try again.
+└─ Cause: spawn brew ENOENT
+    at Function.installCLIAsync (/Users/noverianzhafar/.npm/_npx/1141/lib/node_modules/pod-install/build/index.js:2:89554)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async runAsync (/Users/noverianzhafar/.npm/_npx/1141/lib/node_modules/pod-install/build/index.js:2:106068)
+    at async /Users/noverianzhafar/.npm/_npx/1141/lib/node_modules/pod-install/build/index.js:2:106284 {
+  code: 'NO_CLI',
+  cause: Error: spawn brew ENOENT
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+      at onErrorNT (internal/child_process.js:467:16)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'spawn brew',
+    path: 'brew',
+    spawnargs: [ 'install', 'cocoapods' ],
+    pid: undefined,
+    output: [ '', '' ],
+    stdout: '',
+    stderr: '',
+    status: null,
+    signal: null
+  },
+  isPackageManagerError: true
+}
+
+root@Noverians-MacBook-Air ios # 
